@@ -12,8 +12,9 @@ const nextConfig = {
     ignoreDuringBuilds: true, // To disable ESLint build errors
   },
   experimental: {
-    // remove fontLoaders if unused
+    appDir: true,
   },
+  output: 'standalone',
 };
 
 export default nextConfig;
