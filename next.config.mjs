@@ -9,10 +9,7 @@ const nextConfig = {
     ],
   },
   eslint: {
-    ignoreDuringBuilds: true, // To disable ESLint build errors
-  },
-  experimental: {
-    appDir: true,
+    ignoreDuringBuilds: true,
   },
   output: 'standalone',
 };
