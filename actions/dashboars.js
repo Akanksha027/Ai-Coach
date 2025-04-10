@@ -15,7 +15,7 @@ export const generateAIInsights = async (industry) => {
               { "role": "string", "min": number, "max": number, "median": number, "location": "string" }
             ],
             "growthRate": number,
-            "demandLevel": "HIGH" | "MEDIUM" | "LOW",
+            "demandLevel": "High" | "Medium" | "Low",
             "topSkills": ["skill1", "skill2"],
             "marketOutlook": "Positive" | "Neutral" | "Negative",
             "keyTrends": ["trend1", "trend2"],
@@ -41,7 +41,7 @@ export async function getIndustryInsights() {
   if (!userId) throw new Error("Unauthorized");
 
   const user = await db.user.findUnique({
-    where: { clerkUserID: userId },
+    where: { clerkUserId: userId },
     include: {
       industryInsight: true,
     },
