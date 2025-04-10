@@ -1,5 +1,6 @@
-// pages/_document.jsx
+// pages/_document.tsx
 import { Html, Head, Main, NextScript } from 'next/document';
+import { HtmlHTMLAttributes } from 'react';
 
 export default function Document() {
   return (
