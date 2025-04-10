@@ -47,11 +47,7 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link rel="stylesheet" href="/myyoutubechannel">
-            <button size="lg" className="px-8" variant="outline">
-              Get Started
-            </button>
-          </Link>
+        
         </div>
 
         <div className="hero-image-wrapper mt-5 md:mt-0">
