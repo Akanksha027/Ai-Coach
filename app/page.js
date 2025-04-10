@@ -9,7 +9,7 @@ import {
   Sparkles,
   CheckCircle2,
 } from "lucide-react";
-import HeroSection from "@/components/hero";
+import HeroSection from "@/components/Hero";
 import {
   Accordion,
   AccordionContent,
