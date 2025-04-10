@@ -33,9 +33,10 @@ export default function RootLayout({ children }) {
             <main className="min-h-screen">{children}</main>
             <Toaster richColors />
             <footer className="bg-muted/50 py-12">
-              <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with 💗 by RoadsideCoder</p>
-              </div>
+            <p className="text-center text-sm text-gray-500 py-4">
+  © {new Date().getFullYear()} BU Sensai. All rights reserved.
+</p>
+
             </footer>
           </ThemeProvider>
         </ClerkProvider>
